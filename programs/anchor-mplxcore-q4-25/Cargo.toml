@@ -9,7 +9,8 @@ crate-type = ["cdylib", "lib"]
 name = "anchor_mplxcore_q4_25"
 
 [features]
-default = []
+default = ["skip-upgrade-authority"]
+skip-upgrade-authority = []
 cpi = ["no-entrypoint"]
 no-entrypoint = []
 no-idl = []
